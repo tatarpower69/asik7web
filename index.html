@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>jQuery Practice Website</h1>
+        <p>Student: <strong>Your Full Name</strong> | Group: <strong>Your Group</strong></p>
+    </header>
+
+    <main>
+        <!-- Task 1: Selectors & CSS -->
+        <section id="selectors">
+            <h2>Task 1: Selectors & CSS</h2>
+            <p id="byID">This is selected by ID.</p>
+            <p class="byClass">This is selected by Class.</p>
+            <h3>Tag Selector Example</h3>
+            <button id="changeStyle">Change Styles</button>
+        </section>
+
+        <!-- Task 2: Hide / Show -->
+        <section id="visibility">
+            <h2>Task 2: Visibility Methods</h2>
+            <p id="textToHide">You can hide or show me using buttons!</p>
+            <button id="hideBtn">Hide</button>
+            <button id="showBtn">Show</button>
+            <button id="toggleBtn">Toggle</button>
+        </section>
+
+        <!-- Task 3: Fade -->
+        <section id="fade">
+            <h2>Task 3: Fade Methods</h2>
+            <img id="fadeImage" src="https://via.placeholder.com/200" alt="Sample Image">
+            <br>
+            <button id="fadeOutBtn">Fade Out</button>
+            <button id="fadeInBtn">Fade In</button>
+            <button id="fadeToggleBtn">Fade Toggle</button>
+        </section>
+
+        <!-- Task 4: Slide -->
+        <section id="slide">
+            <h2>Task 4: Slide Methods</h2>
+            <button id="togglePanelBtn">Toggle Panel</button>
+            <div id="panel">This is a collapsible panel!</div>
+        </section>
+
+        <!-- Task 5: Add & Remove -->
+        <section id="add-remove">
+            <h2>Task 5: Add & Remove Elements</h2>
+            <ul id="itemList">
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+            <button id="addItem">Add Item</button>
+            <button id="removeItem">Remove Last Item</button>
+        </section>
+
+        <!-- Task 6: Attributes -->
+        <section id="attributes">
+            <h2>Task 6: Modifying Attributes</h2>
+            <img id="attrImage" src="https://via.placeholder.com/150" alt="Image">
+            <br>
+            <button id="changeSrc">Change Image</button>
+            <br><br>
+            <a id="myLink" href="https://www.google.com" target="_blank">Go to Google</a>
+            <button id="changeHref">Change Link</button>
+        </section>
+
+        <!-- Task 7: Form Interaction -->
+        <section id="formInteraction">
+            <h2>Task 7: Form Interaction</h2>
+            <form>
+                <input type="text" id="nameInput" placeholder="Enter your name">
+                <input type="email" id="emailInput" placeholder="Enter your email">
+            </form>
+            <p>Your name: <span id="liveName"></span></p>
+            <p>Your email: <span id="liveEmail"></span></p>
+        </section>
+
+        <!-- Task 8–10: Animations -->
+        <section id="animations">
+            <h2>Task 8–10: Animations</h2>
+            <div id="box"></div>
+            <button id="animateBtn">Animate</button>
+            <button id="sequentialBtn">Sequential Animation</button>
+            <button id="combinedBtn">Combined Animation</button>
+        </section>
+
+        <!-- Task 11: Mini Project -->
+        <section id="gallery">
+            <h2>Task 11: Mini Project — Image Gallery</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/150" alt="1">
+                <img src="https://via.placeholder.com/150/ff6666" alt="2">
+                <img src="https://via.placeholder.com/150/66ff66" alt="3">
+                <img src="https://via.placeholder.com/150/6666ff" alt="4">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Your Name | jQuery Assignment</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
