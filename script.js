@@ -1,12 +1,20 @@
 $(document).ready(function() {
   console.log("jQuery loaded successfully!");
 
-  // Task 1 – Selectors
-  $("#title").text("✔ jQuery is working!");
-  $("#task1 p").css({
-    color: "#007bff",
-    fontWeight: "bold"
-  }).text("This text was changed using jQuery!");
+  // Task 0
+  $("#title").text("✔️ jQuery is working!");
+
+  // Task 1 – Change Text by Button Click
+  $("#change-text-btn").click(function () {
+    $("#task1-text")
+      .text(" Text changed using jQuery on button click!")
+      .css({
+        color: "red",
+        fontWeight: "bold",
+        fontSize: "18px"
+      });
+  });
+
 
   // Task 2 – Visibility
   $("#hide-btn").click(() => $("#text").hide());
